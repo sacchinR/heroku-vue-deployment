@@ -16,7 +16,7 @@
       <tbody  v-if='getAllUsers'>
         <tr v-for='name in getAllUsers' :key='name.id'>
           <td v-text="name.id"></td>
-          <td v-text="name.name"  class="text-info p-cursor"></td>
+          <td v-text="name.name"  class="text-info"></td>
           <td v-text="name.email"></td>
           <td v-text="name.city"></td>
           <td v-text="name.phoneNo"></td>
